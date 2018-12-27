@@ -1,0 +1,79 @@
+#content {
+    height: 400px;
+}
+
+#content div {
+    border: 5px solid black;
+}
+
+#header {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+#mysteryWordDiv {
+    background-color: rgb(250, 248, 248);
+    height: 200px;
+    width: 40%;
+    margin: 50px 300px 0 350px;
+}
+
+#chancesDiv {
+    background-color: green;
+    height: 200px;
+    width: 20%;
+    position: relative;
+    top: -120px;
+    right: -70px;
+}
+
+#allGuessesDiv {
+    background-color: rgb(247, 243, 243);
+    position: relative;
+    width: 40%;
+    height: 200px;
+    top: -220px;
+    right: -350px;
+}
+
+#resultsDiv {
+    background-color: rgba(102, 84, 84, 0.075);
+    height: 200px;
+    width: 20%;
+    position: relative;
+    top: -550px;
+    right: -880px;
+}
+
+h2{
+    text-align: center;
+}
+
+#chancesSpan, #mysteryWord {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    font-stretch: expanded;
+    letter-spacing: 5px;
+}
+#allGuessesSpan {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-stretch: expanded;
+    letter-spacing: 5px;
+}
+
+#chancesSpan {
+    margin-left: 100px;
+}
+    
+    
+body {
+    background-color: rgb(197, 240, 240);
+}
